@@ -1,0 +1,96 @@
+body {
+    background-color: #F3F2EF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-background {
+    background-color: white;
+
+}
+
+
+
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 0.4rem;
+    height: 227px;
+}
+
+.card-main-title{
+    font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+}
+
+.right-Card {
+height: 75px;
+}
+.card-header {
+    background-color: #fff;
+}
+
+
+
+.btn-primary {
+    width: 100%;
+    background-color: #0A66C2;
+}
+
+
+
+
+
+
+
+
+.nav-link-selected {
+    color: #666666;
+}
+.form-control {
+    background-color: #EFF3F8! important;
+}
+.p-3 {
+    padding: 0! important;
+}
+.logo-margin {
+margin-right: 21px;
+}
+.searchBarCustomize{
+   width: 300px;
+}
+.me-lg-3{
+    margin-right: 20px! important;
+}
+.navbar-options{
+    margin-right: 15px;
+}
+.navbar-final-options{
+margin-right: 10px! important;
+}
+.d-blocks {
+    display: initial;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
