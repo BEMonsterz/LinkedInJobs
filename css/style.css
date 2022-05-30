@@ -152,9 +152,52 @@ p {
 .applyButton {
     margin-left: 5px;
 }
+.applyButtonLeft {
+    margin-right: 5px;
+}
 .saveButton {
     margin-right: 5px;
 }
 .datePosted {
     color: #999;
 }
+.imagePostionCard{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+.card-title {
+    margin-top: 10px;
+}
+.leftSide {
+    float: left;
+    margin-right: 15px;
+}
+.bannerBackground {
+    background-color: #F9C073! important;
+}
+.close {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .logoFooterLeft {
+margin-right: 10px;
+  }
+  .my-4 {
+    margin-bottom: 0! important;
+}
+
+  footer {
+    width: 100%! important;
+    background-color: white;
+
+  }
