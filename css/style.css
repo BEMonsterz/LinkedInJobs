@@ -24,6 +24,7 @@ body {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.09);
+    z-index: 0;
     border-radius: 0.4rem;
     /* height: 227px; */
 }
@@ -49,6 +50,13 @@ font-weight: 300;
 
     font-size: 21px;
 }
+.card-title-salary{
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+font-weight: 700;
+font-size: 28px;
+margin-bottom: 0.25rem! important;
+}
 .right-Card {
 height: 75px;
 }
@@ -63,7 +71,11 @@ height: 75px;
     background-color: #0A66C2;
 }
 
-
+.btn-primary-outline {
+    width: 100%;
+    border: 1.5px solid #0A66C2;
+    color: #0A66C2;
+}
 
 
 
@@ -107,21 +119,42 @@ margin-right: 10px! important;
     padding: 10px;
 }
 
-.optionCard2 {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.09);
-    border-radius: 0.4rem;
+
+p {
+    margin-bottom:0! important;
 }
 
+.badge-secondary{
+    background-color: #E1ECF8;
+    margin-left: 24px;
+    color: black;
+}
+.cardOptionButtons {
+    width:141px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 
+}
+.test {
+    float: right! important;
+
+}
+.buttonOrder{
+    display: grid;
+}
+.buttonContainer {
+    float: right;
+    margin-top: -18%;
+    z-index: 2;
+}
+.applyButton {
+    margin-left: 5px;
+}
+.saveButton {
+    margin-right: 5px;
+}
+.datePosted {
+    color: #999;
+}
