@@ -11,7 +11,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 <link rel="stylesheet" href="css/style.css" />
-    <title>Job Details | LinkedIn</title>
+    <title>Job Details Status Denied| LinkedIn</title>
 </head>
 <body>
     <header class="p-3 mb-3 border-bottom nav-background sticky">
@@ -148,8 +148,25 @@
                 
                 </div>
               </div>
-              <div class="card-body">
-                <h4 class="job-description-title">Description</h4>
+              <div class="whereAmIInStatus">
+                <img src="media/appliedIcon.svg" width="26" height="26" class="statusImage">
+                <img src="media/appliedCanceled.svg" width="26" height="26" class="statusImageDenied">
+
+              </div>
+
+              <div class="card-body" style="margin-top: -7px;">
+
+                <h4 class="job-description-title">Application Status</h4>
+                <div class="progress" style="float: right;width: 80%;height: 17px;">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+<p class="appiedBarText">Applied</p>
+<p class="appiedBarTextDenied">Not Accepted</p>
+
+
+
+
+                <h4 class="job-description-title" style="margin-top:10px">Description</h4>
                 <p class="job-description">The ideal candidate will have experience in creating mockups to present to teams, collecting feedback and creating a quality piece of work. This individual should be comfortable with building sitemaps, wireframes and prototypes to provide to project manners and inevitably execute based on outlined criteria. This candidate should have strong creative and design skills and be familiar with various design technologies. 
  </p>
               <ul class="list-style-details">

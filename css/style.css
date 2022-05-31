@@ -176,6 +176,7 @@ p {
 .bannerBackground {
     background-color: #F9C073! important;
     margin-bottom: -1px! important;
+    border-radius: 0px! important;
 }
 .close {
     font-size: 1.5rem;
@@ -252,7 +253,7 @@ font-weight: 600;
 font-size: 18px;
 }
 .job-description-title {
-    float: left;
+    /* float: left; */
     width: 15%;
     display: inline-block;
     text-align: right;
@@ -283,6 +284,8 @@ font-size: 18px;
       background-color: #D9D9D9;
       height: 1px;
       width: 90%! important;
+      margin: auto;
+
   }
   .card-details-resume-insight {
       margin-top: 21px;
@@ -318,4 +321,90 @@ margin-top: 15px;
     border-radius: 20px;
     margin-top: 40px;
 
+}
+.resourcesDiv {
+    display: inline-block;
+    width: 100%;
+    border-radius: 6px;
+}
+.cardResources {
+    width: 33%;
+}
+.imagePostionCardResource {
+    float: left;
+    margin-right: 10px;
+
+}
+
+
+
+.resourcesDivider {
+    background-color: #F0F4F8;
+    padding: 10px;
+    border-radius: 6px;
+    width: 22%;
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.resourcesDivImage {
+margin-right: 15px;
+float: left;
+height: 32px;
+width: 32px;
+}
+.containResources {
+    display: inline-block;
+    text-align: center;
+}
+.resourcesText {
+text-align: left;
+}
+.buttonDiv{
+    text-align: right;
+}
+.modal-body {
+    text-align: center;
+}
+.modalStyle {
+    margin-bottom: 16px;
+
+}
+.modalParagraph {
+    font-family: 'Lato', sans-serif;
+    /* font-style: thin; */
+font-weight: 700;
+font-size: 21px;
+}
+.jobProgress {
+    float: right;
+    width: 80%;
+    display: inline-block;
+    height: 17px;
+}
+.bg-success {
+    background-color: #7FBA00! important;
+}
+.whereAmIInStatus {
+    width: 100%;
+    margin-top: 30px;
+}
+.statusImage {
+    margin-left: 23.5%;
+}
+.statusImageDenied {
+    float: right;
+    margin-right: 55px;
+}
+.bg-danger {
+    background-color: #F44E24;
+}
+.appiedBarText {
+    margin-left: 21%;
+    margin-top: -26px;
+    margin-bottom: 30px! important;
+}
+.appiedBarTextDenied {
+    margin-top: -57px;
+    float: right;
 }
