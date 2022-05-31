@@ -201,7 +201,9 @@ margin-right: 10px;
 
   }
  /* Job Details */
-
+ .additional-padding {
+    padding: 20px;
+ }
  .jobActiveTitle {
     font-family: 'Lato';
     font-style: normal;
@@ -226,3 +228,94 @@ margin-right: 10px;
   .alert-dismissible {
       padding-right: 0!important;
   }
+
+  .card-details-salary {
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+font-weight: 700;
+font-size: 21px;
+margin-bottom: 0.25rem! important;
+margin-top: 13px;
+}
+.card-details-job-location {
+    font-family: 'Lato', sans-serif;
+    /* font-style: thin; */
+font-weight: 300;
+font-size: 18px;
+margin-bottom: 0.25rem! important;
+margin-left: 10px;
+}
+h4 {
+    font-family: 'Lato', sans-serif;
+    /* font-style: thin; */
+font-weight: 600;
+font-size: 18px;
+}
+.job-description-title {
+    float: left;
+    width: 15%;
+    display: inline-block;
+    text-align: right;
+
+}
+.job-description {
+    float: right;
+    width: 80%;
+    display: inline-block;
+
+}
+
+.list-style-details {
+    padding-left:0rem;
+    list-style-type: none;
+    width: 80%;
+    float: right;
+    margin-top: 20px;
+}
+/* hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  } */
+
+  .divider-for-jobs {
+      background-color: #D9D9D9;
+      height: 1px;
+      width: 90%! important;
+  }
+  .card-details-resume-insight {
+      margin-top: 21px;
+    font-family: 'Lato', sans-serif;
+    /* font-style: thin; */
+font-weight: 700;
+font-size: 36px;
+}
+.progress {
+    height: 8px;
+}
+.status-Padding {
+    margin-top: 42px;
+}
+.status-suggested-skills {
+    margin-top: 21px;
+}
+.btn-light {
+    border: 1.5px solid black;
+background-color: transparent! important;
+border-radius: 20px;
+margin-right: 8px;
+margin-top: 15px;
+
+}
+.skillsButton {
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+.cardOptionViewMore {
+    width:174px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 40px;
+
+}
