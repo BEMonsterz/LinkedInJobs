@@ -24,7 +24,6 @@ body {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.09);
-    z-index: 0;
     border-radius: 0.4rem;
     /* height: 227px; */
 }
@@ -147,7 +146,6 @@ p {
 .buttonContainer {
     float: right;
     margin-top: -18%;
-    z-index: 2;
 }
 .applyButton {
     margin-left: 5px;
@@ -177,6 +175,7 @@ p {
 }
 .bannerBackground {
     background-color: #F9C073! important;
+    margin-bottom: -1px! important;
 }
 .close {
     font-size: 1.5rem;
@@ -200,4 +199,30 @@ margin-right: 10px;
     width: 100%! important;
     background-color: white;
 
+  }
+ /* Job Details */
+
+ .jobActiveTitle {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+ }
+ .rows { 
+     width: 50%;
+ }
+ .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  .margin-tops {
+    margin-top: 5rem!important;
+  }
+  .margin-tops-2 {
+    margin-top: 8rem!important;
+  }
+  .alert-dismissible {
+      padding-right: 0!important;
   }
