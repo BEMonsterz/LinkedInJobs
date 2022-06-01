@@ -75,9 +75,27 @@ height: 75px;
     border: 1.5px solid #0A66C2;
     color: #0A66C2;
 }
+.btn-primary-outline-viewDetails {
+    width: 100%;
+    border: 1.5px solid #0A66C2;
+    color: #0A66C2;
+}
 
 
 
+.btn-applied {
+    width: 100%;
+    width:141px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Lato';
+    font-weight: 700;
+
+    /* background-color: white; */
+    color: #7FBA00;
+}
 
 
 
@@ -155,6 +173,7 @@ p {
 }
 .saveButton {
     margin-right: 5px;
+    margin-top: -1px;
 }
 .datePosted {
     color: #999;
@@ -273,12 +292,6 @@ font-size: 18px;
     float: right;
     margin-top: 20px;
 }
-/* hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-  } */
 
   .divider-for-jobs {
       background-color: #D9D9D9;
@@ -392,6 +405,16 @@ font-size: 21px;
 .statusImage {
     margin-left: 23.5%;
 }
+
+.statusOtherImage {
+    margin-left: 13.5%;
+}
+.statusOtherImage1 {
+    margin-left: 12%;
+}
+.statusOtherImage2 {
+    margin-left: 13%;
+}
 .statusImageDenied {
     float: right;
     margin-right: 55px;
@@ -404,7 +427,68 @@ font-size: 21px;
     margin-top: -26px;
     margin-bottom: 30px! important;
 }
+
+.appiedBarTextOptions1 {
+    margin-left: 34%;
+    margin-top: -54px;
+    margin-bottom: 30px! important;
+}
+.appiedBarTextOptions2 {
+    margin-left: 54%;
+    margin-top: -54px;
+    margin-bottom: 30px! important;
+}
+.appiedBarTextOptions3 {
+    margin-left: 71%;
+    margin-top: -54px;
+    margin-bottom: 30px! important;
+}
+.appiedBarTextOptions4 {
+    margin-left: 90%;
+    margin-top: -54px;
+    margin-bottom: 30px! important;
+}
+.appiedBarTextOptions5 {
+    margin-left: 90%;
+    margin-top: -54px;
+    margin-bottom: 30px! important;
+}
+
+
+
 .appiedBarTextDenied {
     margin-top: -57px;
     float: right;
+}
+
+
+
+
+/* Hover states */
+.cardOptionButtons:hover {
+    background-color: #18407E;
+}
+
+
+/* .btn-primary-outline-viewDetails:hover {
+    background-color: #E5F1FC! important;
+    border: 3px solid #2D63BD;
+color: #0A66C2;
+} */
+.btn-applied:hover {
+    border:none! important;
+
+}
+.btn-applied:active {
+    border:none! important;
+
+}
+.btn-applied:focus {
+    border:none! important;
+
+}
+.btn-primary-outline:hover {
+    background-color: #E5F1FC! important;
+    border: 3px solid #2D63BD;
+color: #0A66C2;
 }
