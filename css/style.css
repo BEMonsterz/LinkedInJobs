@@ -408,3 +408,9 @@ font-size: 21px;
     margin-top: -57px;
     float: right;
 }
+.radioButtons {
+    display: flex;
+}
+.form-check-2 {
+    margin-left: 5%;
+}
