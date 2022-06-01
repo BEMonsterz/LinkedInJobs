@@ -460,6 +460,12 @@ font-size: 21px;
     margin-top: -57px;
     float: right;
 }
+.radioButtons {
+    display: flex;
+}
+.form-check-2 {
+    margin-left: 5%;
+}
 
 
 
@@ -492,3 +498,4 @@ color: #0A66C2;
     border: 3px solid #2D63BD;
 color: #0A66C2;
 }
+
