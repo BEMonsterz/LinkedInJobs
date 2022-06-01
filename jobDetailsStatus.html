@@ -17,8 +17,8 @@
     <header class="p-3 mb-3 border-bottom nav-background sticky">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none logo-margin">
-                <img src="media/logo.svg" width="93" height="37" class="bi me-2">
+            <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none logo-margin">
+              <img src="media/logo.svg" width="93" height="37" class="bi me-2">
             </a>
             <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 searchBarCustomize" role="search">
                 <input type="search" class="form-control" placeholder="Search" aria-label="Search">
@@ -150,7 +150,10 @@
               </div>
               <div class="whereAmIInStatus">
                 <img src="media/appliedIcon.svg" width="26" height="26" class="statusImage">
-                <img src="media/appliedCanceled.svg" width="26" height="26" class="statusImage">
+                <img src="media/appliedViewed.svg" width="36" height="36" class="statusOtherImage">
+                <img src="media/appliedInterview.svg" width="36" height="36" class="statusOtherImage1">
+                <img src="media/appliedOffer.svg" width="36" height="36" class="statusOtherImage2">
+                <img src="media/appliedInterview.svg" width="36" height="36" class="statusImageDenied">
 
               </div>
 
@@ -158,9 +161,14 @@
 
                 <h4 class="job-description-title">Application Status</h4>
                 <div class="progress" style="float: right;width: 80%;height: 17px;">
-                  <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 29%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
 
+                <p class="appiedBarText">Applied</p>
+                <p class="appiedBarTextOptions1">Application Viewed</p>
+                <p class="appiedBarTextOptions2">Interviewing</p>
+                <p class="appiedBarTextOptions3">Offer Received</p>
+                <p class="appiedBarTextOptions4">Decision</p>
 
 
 
@@ -350,6 +358,7 @@
 
       
 </body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="js/style.js"></script>
 
 </html>
