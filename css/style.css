@@ -300,6 +300,7 @@ font-size: 18px;
       margin: auto;
 
   }
+
   .card-details-resume-insight {
       margin-top: 21px;
     font-family: 'Lato', sans-serif;
@@ -402,8 +403,12 @@ font-size: 21px;
     width: 100%;
     margin-top: 30px;
 }
+
 .statusImage {
     margin-left: 23.5%;
+}
+.statusImage1 {
+    margin-left: 36.5%;
 }
 
 .statusOtherImage {
@@ -467,9 +472,186 @@ font-size: 21px;
     margin-left: 5%;
 }
 
+.skillAssessmentContainer {
+    width: 100%! important;
+    background-color: white;
+}
+ .divider-for-skills-header {
+      background-color: #D9D9D9;
+      height: 2px;
+      width: 100%! important;
+      margin: auto;
+
+  }
+  .divider-for-myJobs-header2 {
+    background-color: #717171;
+    height: 1px;
+    width: 100%! important;
+    margin: auto;
+    
+
+}
+.divider-for-myJobs-header3 {
+    background-color: #717171;
+    height: 1px;
+    width: 100%! important;
+    margin: auto;
+    margin-top: -20px;
+
+}
+  .divider-for-myJobs-header {
+    background-color: #717171;
+    height: 2px;
+    width: 100%! important;
+    margin: auto;
+    margin-top: -21px;
+
+}
+.progress-Cards {
+    float: right;
+    width: 62%! important;
+    height: 17px;
+    margin-top: -88px;
+    margin-right: 33px;
+}
+
+.appliedText {
+
+}
+.form-check-input:checked[type=radio] {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%230d6efd'/%3e%3c/svg%3e");
+    }
+    .form-check-input:checked {
+        background-color: #F3F2EF;
+        border-color: #0d6efd;
+        }
+        .form-check-input {
+            background-color: #F3F2EF;
+            border: 1px solid #0d6efd;
+        }
+.h2, h2 {
+    font-size: 28px;
+font-weight: bold;
+}
 
 
 
+.customGrid{
+    width: 100%;
+    display: inline-block;
+}
+
+.customGridColumn1{
+    width: 36%;
+    display: inline-block;
+
+}
+.customGridColumn2{
+    width: 60%;
+    display: inline-block;
+
+}
+
+.newAppliedButton {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.newAppliedButton1 {
+    margin-left: 20px;
+    margin-right: 11%;
+    margin-bottom: 5px;
+}
+.newApplied2Button {
+    margin-left: 11%;
+    margin-bottom: 5px;
+}
+.newApplied2sButton {
+    margin-left: 25.5%;
+    margin-bottom: 5px;
+}
+.newDeniedButton {
+    margin-right: 35px;
+    margin-bottom: 5px;
+float: right;
+}
+.newDenied2Button {
+    margin-right: 16px;
+    margin-bottom: 5px;
+float: right;
+}
+.deniedTextGrid{
+    width: 100%;
+    display: inline-block;
+}
+
+.deniedTextGridDetail1{
+    width: 49%;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.deniedTextGridDetail2{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+
+}
+.deniedTextGridDetail1{
+    width: 19%;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+.deniedTextGridDetail2{
+    width: 19%;
+    display: inline-block;
+    text-align: right;
+float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.appliedTextGridDetail1{
+    display: inline-block;
+    margin-right: 11%;
+    padding-left: 10px;
+
+}
+.appliedTextGridDetail2{
+    display: inline-block;
+    margin-right: 12%;
+
+}
+.appliedTextGridDetail3{
+    display: inline-block;
+    margin-right: 12%;
+
+}
+
+.appliedTextGridDetail5{
+    display: inline-block;
+    /* margin-right: 8%; */
+
+}
+
+
+.spacing-part{
+color: white;
+}
 /* Hover states */
 .cardOptionButtons:hover {
     background-color: #18407E;
@@ -482,20 +664,20 @@ font-size: 21px;
 color: #0A66C2;
 } */
 .btn-applied:hover {
-    border:none! important;
+    border: 1px solid white;
 
 }
 .btn-applied:active {
-    border:none! important;
+    border: 1px solid white;
 
 }
 .btn-applied:focus {
-    border:none! important;
+    border: 1px solid white;
 
 }
+
 .btn-primary-outline:hover {
     background-color: #E5F1FC! important;
     border: 3px solid #2D63BD;
 color: #0A66C2;
 }
-
