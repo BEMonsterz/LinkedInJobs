@@ -48,7 +48,7 @@ margin-bottom: 20px! important;
     font-style: normal;
 font-weight: 700;
 font-size: 23px;
-margin-left: 200px;
+margin-left: 193px;
 margin-top: 20px;
 margin-bottom: 20px! important;
 }
@@ -709,14 +709,114 @@ display: inline-block;
 font-weight: 600;
 font-size: 24px;
 }
+.assessmentFeaturedDetailsParagraph {
+    padding-top: 10px;
+}
+.badgeNotStarted {
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.filledButtonAssessmentFeatured {
+    width:180px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+
+}
 
 
+.divider-for-featured-assessments {
+    background-color: #A8A8A8;
+    height: 3px;
+    width: 90%! important;
+    margin: auto;
+
+}
+
+.skillsForYouTitle {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 23px;
+margin-left: 100px;
+padding-top: 40px;
+margin-bottom: 20px! important;
+}
 
 
+.viewMore {
+    font-size: 18px;
+font-weight: 400;
+text-decoration: underline;
+padding-left: 25px;
+}
+.assesmentCard {
+    background-color: #EFF3F8;
+    height: 203px;
+    width: 356px;
+    padding:20px;
+}
+.carousel-control-next-icon {
+    background-image: url('../media/rightArrow.svg')! important;
+}
+.carousel-control-prev {
+    left: initial! important;
+    right: 0! important;
+    margin-right: 70px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../media/leftArrow.svg')! important;
+}
+
+.additionAssessmentPaddingForFooter {
+    padding-top:21rem!important;
+}
+.layoutToTest {
+    width: 85%;
+    margin: auto;
+}
 
 
+.assessmentSemiDetailsBadge {
+    background-color: #D9D9D9;
+    color: black;
+    float: right;
+}
+.assessmentSemiDetailsBadgeInProcess {
+    background-color: #FFB902;
+    color: black;
+    float: right;
+}
+.assessmentDetailTitle {
+    font-weight: bold;
+    font-size: 23px;
+    padding-top: 33px;
+}
 
+.setUpNaviButtons {
+    margin-top: -51px;
+    padding-bottom: 32px;
+    float: right;
+    margin-right: 118px;
+}
 
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: inline-block;
+}
+
+.carousel-inner {
+    display: inline-block;
+    /* width: 33%; */
+}
+.carousel-item {
+    /* width: 33%; */
+    margin-right:0;
+    width: 33%;
+    display: inline-block;
+}
 
 
 
@@ -726,7 +826,10 @@ font-size: 24px;
 .cardOptionButtons:hover {
     background-color: #18407E;
 }
+.filledButtonAssessmentFeatured:hover {
+    background-color: #18407E;
 
+}
 
 /* .btn-primary-outline-viewDetails:hover {
     background-color: #E5F1FC! important;
