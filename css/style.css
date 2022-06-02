@@ -34,6 +34,36 @@ body {
 font-weight: 700;
 font-size: 28px;
 }
+.card-main-title-assessments {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 900;
+font-size: 28px;
+margin-left: 200px;
+margin-top: 20px;
+margin-bottom: 20px! important;
+}
+.card-welcome-title-assessments {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 23px;
+margin-left: 200px;
+margin-top: 20px;
+margin-bottom: 20px! important;
+}
+.card-hero-title-assessments {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 300;
+font-size: 24px;
+/* margin-left: 200px;
+margin-top: 20px;
+margin-bottom: 20px! important; */
+}
+
+
+
 .card-title-section{
     margin-right: 20px;
 }
@@ -652,6 +682,46 @@ float: right;
 .spacing-part{
 color: white;
 }
+
+.assesmentFeaturedGrid {
+width: 100%;
+display: inline-block;
+}
+
+.assesmentFeaturedRow1 {
+    margin-left:13.5%;
+    width: 48%;
+    display: inline-block;
+    }
+
+    .assesmentFeaturedRow2 {
+        width: 33%;
+        display: inline-block;
+        text-align: right;
+        margin-left:-45px;
+        }
+       .assessmentFeaturedDescription {
+           width: 75%;
+       }
+.assesmentFeaturedTitle {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Hover states */
 .cardOptionButtons:hover {
     background-color: #18407E;
