@@ -1,0 +1,20 @@
+
+@media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) {
+
+    body {
+        background-color: blue;
+    }
+    .searchBarCustomize {
+        width: 219px;
+        margin-top: 15px;
+        }
+        .nav {
+            display: none;
+        }
+        .dropdown {
+            display: none;
+        }
+        .logo-margin {
+            padding-top: 10px;
+        }
+ }
