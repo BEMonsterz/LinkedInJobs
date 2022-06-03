@@ -1,20 +1,206 @@
 
 @media only screen and (min-device-width : 428px) and (max-device-height : 926px) and (-webkit-device-pixel-ratio : 3) {
 
-    body {
-        background-color: blue;
-    }
     .searchBarCustomize {
-        width: 219px;
-        margin-top: 15px;
+        width: 219px!important;
+        margin-top: 15px!important;
         }
         .nav {
-            display: none;
+            display: none!important;
         }
         .dropdown {
-            display: none;
+            display: none!important;
         }
         .logo-margin {
-            padding-top: 10px;
+            padding-top: 10px!important;
         }
+        .buttonContainer {
+            margin-top:0!important;
+            float: none!important;
+        }
+        .cardOptionButtons {
+            width: 100%!important;
+            margin-top: 10px! important;
+        }
+        .btn-applied {
+            width: 100%!important;
+        }
+        .buttonDiv {
+            display: none!important;
+        }
+        .mobile-apply-buttons {
+            height: 300px!important;
+        }
+        .job-description-title {
+            width: 100%!important;
+            text-align: left!important;
+        }
+        .job-description {
+            width: 100%! important;
+            margin-bottom: 10px! important;
+
+        }
+        
+        .list-style-details {
+            width: 100%! important;
+            float: none! important;
+        }
+        .resourcesDivider {
+            width:100%! important;
+            margin-top: 10px! important;
+        }
+        .resourcesPart1 {
+            margin-top: 0px! important;
+
+        }
+        .right-Card {
+            display: none! important;
+        }
+        .statusImageMobile {
+            margin-top: 5px! important;
+            margin-bottom: 5px! important;
+            display: block! important;
+        }
+.extremeOption {
+    display: grid! important;
+}
+        .statusImage {
+            margin-left: 0px! important;
+            display: none;
+
+        }
+        .statusOtherImage {
+            margin-left: 0px! important;
+            display: none;
+
+        }
+        .statusOtherImage1 {
+            margin-left: 0px! important;
+            display: none;
+
+        }
+        .statusOtherImage2 {
+            margin-left: 0px! important;
+            display: none;
+
+        }
+        .statusImageDenied {
+            float: none! important;
+            margin-right: 0px! important;
+            display: none;
+
+        }
+        .progress {
+            width: 100%! important;
+        }
+    /* status bar */
+    .appiedBarTextOptions1 {
+        display: none! important;
+    }
+    .appiedBarText {
+        margin-left: 0px! important;
+        margin-bottom: 0px! important;
+        margin-top: 0px! important;
+    }
+    .appiedBarTextOptions1{
+        margin-bottom: 0px! important;
+    }
+    .appiedBarTextOptions2 {
+        display: none! important;
+    }
+    .appiedBarTextOptions3 {
+        display: none! important;
+
+    }
+    .appiedBarTextOptions4 {
+        display: none! important;
+
+    }
+    .form-check-2 {
+        margin-left: 3%;
+    }
+    .customGridColumn1 {
+    width: 100%! important;
+    }
+    .customGridColumn2 {
+        width: 100%! important;
+        }
+        .spacing-part {
+            display: none! important;
+        }
+        .appliedTextGridDetail3 {
+            display: none! important;
+
+        }
+        .appliedTextGridDetail5 {
+            display: none! important;
+
+        }
+        .newApplied2sButton {
+            display: none! important;
+        }
+        .newDenied2Button {
+            display: none! important;
+        }
+        .card-main-title-assessments {
+            margin-left: 30px! important;
+        }
+        .card-welcome-title-assessments {
+            margin-left: 30px! important;
+        }
+        .assesmentFeaturedRow1 {
+            margin-left: 30px! important;
+            width: 100%! important;
+        }
+        .assesmentFeaturedRow2 {
+            width: 100%! important;
+text-align: center! important;
+margin-left: 0px! important;
+}
+.mobileImageAssessment {
+    width: 300px! important;
+}
+.skillsForYouTitle {
+    margin-left: 30px! important;
+
+}
+.setUpNaviButtons {
+    display: none! important;
+    
+}
+.layoutToTest {
+    width: 100%! important;
+}
+.carousel-item {
+    width: 100%! important;
+    margin-top: 10px! important;
+    margin-top: 10px! important;
+
+}
+.assesmentCard {
+    width: 100%! important;
+}
+.divider-for-featured-assessments {
+    width: 100%! important;
+}
+.bannerBackground {
+    font-size: 15px! important
+}
+.newNav {
+    display: flex! important;
+text-align: center! important;
+
+list-style: none! important;
+background-color: white! important;
+padding-top: 10px! important;
+padding-bottom: 10px! important;
+margin-bottom: -1px!important;
+
+}
+footer {
+    display: none! important;
+}
+ol, ul {
+    margin-left: -25px! important;
+}
  }
