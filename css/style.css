@@ -275,6 +275,9 @@ margin-right: 10px;
     width: 100%;
     z-index: 2;
   }
+  .mobile-apply-buttons {
+      display: none! important;
+  }
   .margin-tops {
     margin-top: 5rem!important;
   }

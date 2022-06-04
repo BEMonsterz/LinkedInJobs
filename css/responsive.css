@@ -203,4 +203,9 @@ footer {
 ol, ul {
     margin-left: -25px! important;
 }
+.seperatorForNavbarMobile {
+    background-color: black;
+    top: 0;
+    height: 1px;
+}
  }
