@@ -201,11 +201,19 @@ footer {
     display: none! important;
 }
 ol, ul {
-    margin-left: -25px! important;
+    margin-left: 0px! important;
 }
 .seperatorForNavbarMobile {
     background-color: black;
     top: 0;
     height: 1px;
 }
+
+.sticky2 {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex! important;
+  }
  }
